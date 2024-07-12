@@ -1,13 +1,13 @@
 Esimerkki
-´´´
+```
   "tabAutocompleteModel": {
     "title": "codeqwen",
     "provider": "ollama",
     "model": "codeqwen"
   },
-´´´
+```
 Kokonaisuus
-´´´
+```
 {
   "models": [
     {
@@ -39,5 +39,4 @@ Kokonaisuus
     "model": "nomic-embed-text"
   }
 }
-
-´´´
+```
