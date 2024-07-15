@@ -1,1 +1,83 @@
-ucs.koodattu.dev website will be here soon
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ucs.koodattu.dev</title>
+    <style>
+      body {
+        background-color: #2e2e2e; /* Slightly lighter than the original */
+        color: #d4d4d4; /* A bit brighter than pure white for better contrast */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      }
+      header {
+        padding: 20px;
+        text-align: center;
+      }
+      main {
+        padding: 20px;
+      }
+      article {
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        max-width: 800px; /* Set max width for the article */
+      }
+      footer {
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      #ucs-img {
+        shape-outside: url("images/ucs.png");
+      }
+      #gpt-img {
+        shape-outside: url("images/gpt-lab-sjk.png");
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>ucs.koodattu.dev</h1>
+    </header>
+    <main>
+      <article>
+        <h1>Hello and welcome!</h1>
+        <p>This website contains links related to projects related to my work at GPT Lab and GPT Lab Seinäjoki.</p>
+      </article>
+      <article>
+        <h2>Visual Studio Code<br />Coding Assistants replacing Github Copilot<br />LLMs running locally</h2>
+        <p>
+          This is a project where we are researching alternative solutions to Github Copilot in Visual Studio Code using
+          LLMs running locally.<br />This project is aimed at providing a more secure and customizable alternative for
+          developers, especially those who prioritize privacy and security in their development environment.
+        </p>
+        <a href="https://ucs.koodattu.dev/vscode">https://ucs.koodattu.dev/vscode</a>
+      </article>
+      <article>
+        <h2>Tietoprovinssi demo<br />Voice guided LLM AI powered image editing</h2>
+        <p>
+          Real time voice guided LLM AI powered image editing, where you can speak and the system will generate and edit
+          an image based on your description. This is a real-time demonstration of how AI can be used to assist in image
+          editing, allowing users to interact with AI in a more natural and intuitive way.
+        </p>
+        <a href="https://ucs.koodattu.dev/tietoprovinssi">https://ucs.koodattu.dev/tietoprovinssi</a>
+      </article>
+    </main>
+    <footer>
+      &copy; 2024 Koodattu. All rights reserved.
+      <div>
+        <img id="ucs-img" src="images/ucs-ol.png" alt="Image 1 Description" width="auto" height="250" />
+        <img id="gpt-img" src="images/gpt-lab-sjk-ol.png" alt="Image 2 Description" width="auto" height="250" />
+      </div>
+    </footer>
+  </body>
+</html>
